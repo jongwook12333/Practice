@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    background-color: darkgray;
+}   
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid black;
+}
+.id-pw {
+text-align: right;
+}
+
+
+.login {
+    margin-top: 10px;
+}
+
+input::placeholder {
+    color:black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.menu {
+    width:140px;
+    background-color: darkgray;
+}
+
+.submenu {
+    height: 0px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.submenu > a {
+    line-height: 50px;
+    background-color: beige;
+}
+
+.menu:hover .submenu {
+    height: 150px;
+    transition-duration: 2s;
+}
+
+.menu:hover {
+    background-color: darkkhaki;
+    transition-duration: 0.5s;
+}
+
+.top > .menu:hover > a {
+    background-color: darkkhaki;
+    transition-duration: 0.5s;
+}
+
+.menu > a {
+    background-color: darkgray;
+}
+
+.login {
+    padding-bottom: 10px;
+}
